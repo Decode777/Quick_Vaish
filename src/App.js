@@ -55,8 +55,8 @@ function App() {
   return (
     <div className="kanban-container">
       <header className="black-header">
-        <h1>QuickSell Assignment</h1>
-        <h3>Prateek Mishra (21BIT0288)</h3>
+       
+        <h3>VaishNavi</h3>
       </header>
       <div className="kanban-header">
         <div className="display-dropdown">

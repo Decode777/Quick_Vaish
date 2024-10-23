@@ -1,7 +1,7 @@
 .task-card {
   background-color: #ffffff;
-  padding: 15px;
-  border-radius: 6px;
+  padding: 12px;
+  border-radius: 1px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -60,7 +60,7 @@
 
 .priority-icon {
   padding: 3px;
-  width: 16px;
+  width: 11px;
   height: 16px;
   margin-right: 5px;
   border: 1px solid rgb(197, 194, 194);
