@@ -1,0 +1,104 @@
+.kanban-container {
+  font-family: Arial, sans-serif;
+  padding: 0 20px;
+  background-color: #f7f9fc;
+}
+
+.black-header {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.black-header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.black-header h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.kanban-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.display-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+details {
+  cursor: pointer;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: 120px;
+}
+
+details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  list-style: none;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.display-title {
+  color: rgb(79, 76, 76);
+}
+
+.details summary img:first-child {
+  margin-right: 10px;
+}
+
+.details summary img:last-child {
+  margin-left: 10px;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 10px;
+  z-index: 10;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+}
+
+.dropdown-label {
+  padding: 10px;
+  font-size: 15px;
+  color: #a3a1a1;
+}
+
+.dropdown-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown select {
+  border-color: #a3a1a1;
+  border-radius: 5px;
+  padding: 5px;
+  width: 120px;
+}
